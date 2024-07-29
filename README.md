@@ -45,67 +45,67 @@
     Last but not least, most server-side languages have strong communities. Apart from the benefits mentioned above, you should find plenty of tutorials and documentation when choosing a language.
 
 
-## Server-side Service:
+# Server-side Service:
 
-   Server Push - HTTP/2 Server Push is an optional feature of the HTTP/2 and HTTP/3 network protocols that allows servers to send resources to a client before the client requests them. Server Push is a performance technique aimed at reducing latency by sending resources to a client preemptively before it knows they will be needed.
+  **Server Push**- HTTP/2 Server Push is an optional feature of the HTTP/2 and HTTP/3 network protocols that allows servers to send resources to a client before the client requests them. Server Push is a performance technique aimed at reducing latency by sending resources to a client preemptively before it knows they will be needed.
 
-   Nginx Service - NGINX is open-source web server software used for reverse proxy, load balancing, and caching. It provides HTTPS server capabilities and is mainly designed for maximum performance and stability. It also functions as a proxy server for email communications protocols, such as IMAP, POP3, and SMTP.
+  **Nginx Service**- NGINX is open-source web server software used for reverse proxy, load balancing, and caching. It provides HTTPS server capabilities and is mainly designed for maximum performance and stability. It also functions as a proxy server for email communications protocols, such as IMAP, POP3, and SMTP.
 
-   Authentication service - Server-side authentication takes place when the server provides certificates for authentication to the client.(JWT,oath) 
+   **Authentication service**- Server-side authentication takes place when the server provides certificates for authentication to the client.(JWT,oath) 
 
-   NPM - npm is a package manager for the JavaScript programming language maintained by npm, Inc.,
+   **NPM** - npm is a package manager for the JavaScript programming language maintained by npm, Inc.,
 
-   PM2 serive - PM2 is a daemon process manager that will help you manage and keep your application online 24/7 
+   **PM2 serive** - PM2 is a daemon process manager that will help you manage and keep your application online 24/7 
 
-   Log Service - Operations engineers and developers use logs for debugging. Product managers and UX designers use logs for planning and design. Marketers want to track the performance of various features that relate to advertising campaigns.
+   **Log Service** - Operations engineers and developers use logs for debugging. Product managers and UX designers use logs for planning and design. Marketers want to track the performance of various features that relate to advertising campaigns.
 
-   Middleware - Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle. The next middleware function is commonly denoted by a variable named next.
+   **Middleware** - Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle. The next middleware function is commonly denoted by a variable named next.
 
-   Notification service - A push notification (also known as a server push notification) is the delivery of information to a computing device from an application server where the request for the transaction is initiated by the server rather than by an explicit request from the client. While 'push notification' is most often used to refer to notifications on mobile devices, web applications also leverage this technology.
+   **Notification service** - A push notification (also known as a server push notification) is the delivery of information to a computing device from an application server where the request for the transaction is initiated by the server rather than by an explicit request from the client. While 'push notification' is most often used to refer to notifications on mobile devices, web applications also leverage this technology.
 
-   Database Service - A database server is a server which uses a database application that provides database services to other computer programs or to computers, as defined by the client–server model.
+   **Database Service** - A database server is a server which uses a database application that provides database services to other computer programs or to computers, as defined by the client–server model.
 
-   Mailer Service - MailerSend is a comprehensive tool for your everyday business: send invoices, delivery updates, and forgotten password links in seconds, without even thinking about it.
+   **Mailer Service** - MailerSend is a comprehensive tool for your everyday business: send invoices, delivery updates, and forgotten password links in seconds, without even thinking about it.
 
-# Version control system: 
+# Version control system: #
     Version control helps us to keep track of the changes we made in our code so that if something goes wrong, we can revert back to any previous version that we want. Without VCS it will be a very hectic work to keep track of the changes in our source code where multiple developers are continuously working on the same code.
 
     Version Control Software(VCS) is also known as Source Code Management(SCM) tools or Revision Control System(RCS) is a great fit for any web development company around the globe. 
 
-# Git :
+# Git :#
     Git is a free, cross-platform and open-source distributed version control tools available nowadays which provides strong support for non-linear development and is capable of efficiently handling everything from small to very large projects with speed and efficiency. Local branching, convenient staging areas, and multiple workflows are some important features of git.
     
-    1. Super-fast and Cross-platform.
-    2. Offline full history tree
-    3. Distributed, peer-to-peer model
-    4. Easy and clear track of code changes
-    5. Cheap branch operations and robust.
-    6. Amazing command-line as git bash.
-    7. Complex and bigger history log becomes very hectic for single developer
-    8. Not optima because it doesn’t support keyword expansion and timestamp preservation
-    9. Provides Limited Windows support compared to Linux
+    **1.** Super-fast and Cross-platform.
+    **2.** Offline full history tree
+    **3.** Distributed, peer-to-peer model
+    **4.** Easy and clear track of code changes
+    **5.** Cheap branch operations and robust.
+    **6.** Amazing command-line as git bash.
+    **7.** Complex and bigger history log becomes very hectic for single developer
+    **8.** Not optima because it doesn’t support keyword expansion and timestamp preservation
+    **9.** Provides Limited Windows support compared to Linux
 
 
-# Concurrent Versions System (CVS) :
+# Concurrent Versions System (CVS) :# 
     CVS is another most popular version control system, an important component of Source Configuration Management (SCM) which remains the tool of choice among developers since 80s. You can record the history of sources files, and documents very easily with the help of CVS. It fills a similar role to the free software RCS, PRCS, and Aegis packages and handle conflicts between two programmers by only allowing for the latest version of the code to be worked on and updated.
 
-    1. Matured technology with cross-platform support,
-    2. Instant help and support from vast CVS community
-    3. Robust and fully-featured powerful command-line
-    4. Multiple developers might work on the same project parallel.
-    5. Source corruption due to lack of support for atomic check-outs and commits,
-    6. No integrity checking for source code,
-    7. Poor support for distributed source control
-    8. Expensive branch operations as it is not designed for long-term branching
+    **1.** Matured technology with cross-platform support,
+    **2.** Instant help and support from vast CVS community
+    **3.** Robust and fully-featured powerful command-line
+    **4.** Multiple developers might work on the same project parallel.
+    **5.** Source corruption due to lack of support for atomic check-outs and commits,
+    **6.** No integrity checking for source code,
+    **7.** Poor support for distributed source control
+    **8.** Expensive branch operations as it is not designed for long-term branching
 
-# Apache Subversion (SVN): 
+# Apache Subversion (SVN): #
     It is a free and open-source software best-matched successor to the widely used CVS tool and was created as an alternative to CVS after fixing the bugs and cons of CVS system while maintaining high compatibility with it and that’s why Many developers switched to SVN for the best and improved features of CVS. 
     
-    1. Supports atomic operations to prevent corruption
-    2. Free-form versioned metadata
-    3. Supports empty directories and cheaper branch operations
-    4. Have better windows support as compared to Git
-    5. Wide variety of plug-ins for leading IDE and Agile tools.
-    6. Insufficient repository management commands and no support for signed revisions,
-    7. Much Slower speed compare to git
-    8. contains bugs relating to filename normalization and directories
+    **1.** Supports atomic operations to prevent corruption
+    **2.** Free-form versioned metadata
+    **3.** Supports empty directories and cheaper branch operations
+    **4.** Have better windows support as compared to Git
+    **5.** Wide variety of plug-ins for leading IDE and Agile tools.
+    **6.** Insufficient repository management commands and no support for signed revisions,
+    **7.** Much Slower speed compare to git
+    **8.** contains bugs relating to filename normalization and directories
