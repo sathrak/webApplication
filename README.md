@@ -61,6 +61,12 @@
 
    **Middleware** - Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle. The next middleware function is commonly denoted by a variable named next.
 
+   **GraphQL Service(A query language)** -
+        GraphQL is a data query and manipulation language for APIs, that allows a client to specify what data it needs. A GraphQL server can fetch data from separate sources for a single client query and present the results in a unified graph, so it is not tied to any specific database or storage.
+
+**Microservices API** -
+        Microservices are an architectural approach that composes software into small, independent, highly specialized services. Each microservice solves a single problem or performs a specific task.
+
    **Notification service** - A push notification (also known as a server push notification) is the delivery of information to a computing device from an application server where the request for the transaction is initiated by the server rather than by an explicit request from the client. While 'push notification' is most often used to refer to notifications on mobile devices, web applications also leverage this technology.
 
    **Database Service** - A database server is a server which uses a database application that provides database services to other computer programs or to computers, as defined by the client–server model.
@@ -86,7 +92,7 @@
     9. Provides Limited Windows support compared to Linux
 
 
-# Concurrent Versions System (CVS) :# 
+# Concurrent Versions System (CVS) :
     CVS is another most popular version control system, an important component of Source Configuration Management (SCM) which remains the tool of choice among developers since 80s. You can record the history of sources files, and documents very easily with the help of CVS. It fills a similar role to the free software RCS, PRCS, and Aegis packages and handle conflicts between two programmers by only allowing for the latest version of the code to be worked on and updated.
 
     1. Matured technology with cross-platform support,
